@@ -1,10 +1,8 @@
 programa
 {
-   
-   funcao inicio()
-  
-  {
-        cadeia resultado = calcularImc(47, 1.60, 80.2)
+    funcao inicio()
+    {
+        cadeia resultado = calcularImc( 39, 1.75, 89.2)
         escreva(resultado)
     }
 
@@ -27,28 +25,3 @@ programa
         {
             resultado = "você está no peso normal."
         }
-        
-        se (imc >= 25 e imc < 30) 
-        {
-            resultado = "você está acima do peso."
-        }
-        
-        se (imc >= 30 e imc < 35) 
-        {
-            resultado = "você está com sobrepeso."
-        }
-        
-        se (imc >= 35 e imc < 40) 
-        {
-            resultado = "você está com obesidade."
-        }
-        
-        se (imc >= 40) 
-        {
-            resultado = "você está com obesidade grave."
-        }
-        
-        retorne "Seu IMC é " + imc + " e " + resultado
-    }
-
-}
