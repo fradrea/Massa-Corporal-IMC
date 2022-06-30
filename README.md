@@ -1,5 +1,3 @@
-# Massa-Corporal-IMC
-Idade Peso Altura
 programa
 {
     funcao inicio()
