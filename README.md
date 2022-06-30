@@ -1,7 +1,8 @@
 programa
 {
     funcao inicio()
-    {
+   
+   {
         cadeia resultado = calcularImc(47, 1.60, 80.2)
         
         escreva(resultado)
